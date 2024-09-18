@@ -12,9 +12,9 @@ The SKIP_ARGS constant can be set to False in order to directly change
 the constants for the paths instead of providing paths as args in the terminal.
 '''
 SKIP_ARGS = True
-DIR_PATH = 'C:/Users/ioana/OneDrive/Desktop/CV_Submissions/407_Popescu_Ioana_Livia'
-TOKEN_TEMPLATES_DIR_PATH = 'C:/Users/ioana/OneDrive/Desktop/CV_Submissions/407_Popescu_Ioana_Livia/tokens_numerical_templates'
-TEST_DIR_PATH = 'C:/Users/ioana/OneDrive/Desktop/CV_Submissions/407_Popescu_Ioana_Livia/test_FINAL'
+DIR_PATH = 'C:/Users/DummyPath/Submission_1'
+TOKEN_TEMPLATES_DIR_PATH = 'C:/Users/DummyPath/tokens_numerical_templates'
+TEST_DIR_PATH = 'C:/DummyPath/test'
 VERBOSE_DEFAULT = True
 
 
@@ -205,7 +205,7 @@ class Scorer:
 
         return turns, turns_number
 
-    def score(self, submission_file_name = "407_Popescu_Ioana_Livia"):
+    def score(self, submission_file_name = "Submission#Dummy"):
         '''
         This method embodies the logic of the games scoring. It iterates
         through the folder that contains the games and computes the
