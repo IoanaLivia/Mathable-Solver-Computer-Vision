@@ -40,7 +40,7 @@ python -u "C:\Users\ioana\solution.py" --dir_path 'C:/Users/ioana/Desktop/Mathab
 
 Please respect the path format provided in the above examples as it is relevant for a smooth run.
 
-## Description of the paths
+### Description of the paths
 
 The arguments needed to run the code are:
 
