@@ -7,6 +7,8 @@ each move.
 The train and test datasets alongside the used tokens will not be added to this repository
 as I do not currently have the rights to make them public.
 
+Implementation details are available in the documentation pdf file.
+
 ### The libraries required to run the project including the full version of each library
 
 opencv-python 4.6.0.66  
@@ -59,7 +61,7 @@ python -u "C:\Users\ioana\Desktop\CV\solution_automatic_scorer.py"
 
 -- end of example --
 
-# Output
+### Output
 
 In the submission_files, based on the provided DIR_PATH, 
 a directory is automatically created (if not already present) that will contain the .txt files for
