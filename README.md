@@ -25,9 +25,9 @@ can be manually set by changing their initial values.
 -- example --
 
 SKIP_ARGS = True
-DIR_PATH = 'C:/Users/ioana/Submission_1'
-TOKEN_TEMPLATES_DIR_PATH = 'C:/Users/ioana/tokens_numerical_templates'
-TEST_DIR_PATH = 'C:/Users/ioana/train'
+DIR_PATH = 'C:/Users/DummyPath/Submission_1'
+TOKEN_TEMPLATES_DIR_PATH = 'C:/Users/DummyPath/tokens_numerical_templates'
+TEST_DIR_PATH = 'C:/Users/DummyPath/train'
 VERBOSE_DEFAULT = True
 
 -- end of example
@@ -36,7 +36,7 @@ VERBOSE_DEFAULT = True
 
 -- example --
 
-python -u "C:\Users\ioana\solution.py" --dir_path 'C:/Users/ioana/Desktop/Mathable_Solution' --token_templates_dir_path 'C:/Users/ioana/OneDrive/Desktop/Mathable_Solution/tokens_templates' --test_dir_path 'C:/Users/ioana/OneDrive/Desktop/Mathable_Solution/test' --verbose_option 1
+python -u "C:\Users\DummyPath\solution.py" --dir_path 'C:/Users/DummyPath/Mathable_Solution' --token_templates_dir_path 'C:/Users/DummyPath/tokens_templates' --test_dir_path 'C:/Users/DummyPath/test' --verbose_option 1
 
 -- end of example --
 
@@ -57,7 +57,7 @@ The solution can be run in the terminal with the following command format:
 
 -- example --
 
-python -u "C:\Users\ioana\Desktop\CV\solution_automatic_scorer.py"
+python -u "C:\Users\DummyPath\solution_automatic_scorer.py"
 
 -- end of example --
 
