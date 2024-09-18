@@ -7,7 +7,7 @@ each move.
 The train and test datasets alongside the used tokens will not be added to this repository
 as I do not currently have the rights to make them public.
 
-Implementation details are available in the documentation pdf file.
+Implementation details are available [here](https://github.com/IoanaLivia/Mathable-Solver-Computer-Vision/blob/main/Mathable_Solver_Documentation.pdf).
 
 ### The libraries required to run the project including the full version of each library
 
