@@ -1,5 +1,12 @@
 # Mathable-Solver-Computer-Vision
 
+The following project presents an automatic Mathable Solver that is able to compute the score 
+of a match being provided the necessary images corresponding to the state of the board after
+each move.
+
+The train and test datasets alongside the used tokens will not be added to this repository
+as I do not currently have the rights to make them public.
+
 ### The libraries required to run the project including the full version of each library
 
 opencv-python 4.6.0.66  
@@ -8,7 +15,7 @@ regex 2021.8.3
 
 (python --version returns Python 3.12.3)
 
-### Indications of how to run the solution and where to look for the output file
+### Indications of how to run the solution
 
 (Default) If the constant SKIP_ARGS is set to True, the constants related to the necessary paths
 can be manually set by changing their initial values.
@@ -54,14 +61,13 @@ python -u "C:\Users\ioana\Desktop\CV\solution_automatic_scorer.py"
 
 # Output
 
-In the submission_files directory that is automatically created (if not already present)
-based on the provided DIR_PATH, a directory is automatically created (if not already present) 
-that will contain the .txt files for the position and token values per move and the .txt files 
-for turn scores.
+In the submission_files, based on the provided DIR_PATH, 
+a directory is automatically created (if not already present) that will contain the .txt files for
+the position and token values per move and the .txt files for turn scores.
 
 ## Evaluation
 
 For evaluation, the submission path to be set is in the format:
 
-predictions_path_root = f"{DIR_PATH}/submission_files/Submission_1/"
+predictions_path_root = f"{DIR_PATH}/submission_files/Submission/"
 gt_path_root = TEST_DIR_PATH + "/"
